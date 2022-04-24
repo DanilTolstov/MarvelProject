@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4181238-ace8-48c3-badd-fc290e14d8af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/errorBoudary/ErrorBoundary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/charSearchForm/CharSearchForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/charSearchForm/charSearchForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/ComicsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/SinglePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/singleCharacterLayout/singleCharacterLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/singleCharacterLayout/singleCharacterLayout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/singleComicLayout/SingleComicLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/singleComicLayout/SingleComicLayout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/http.hook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/appHeader/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/appHeader/AppHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/charInfo/CharInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/charInfo/CharInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/charInfo/charInfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/charInfo/charInfo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/charList/CharList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/charList/CharList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/comicsList/ComicsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comicsList/ComicsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/randomChar/RandomChar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomChar/RandomChar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/singleComic/SingleComic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/singleComic/singleComic.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/MarvelService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/MarvelService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +39,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1bde44e4-ec49-412b-8829-1b7c141025b9" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/components/app/App.js" root0="FORCE_HIGHLIGHTING" />
@@ -39,7 +61,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="280ip8EkzIZ3J5Od0mj7BoPeKuF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,22 +71,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/daniltolstov/PluralSight/MarvelProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/daniltolstov/PluralSight/MarvelProject",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -72,6 +97,11 @@
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages/singleComicLayout" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +116,12 @@
       <workItem from="1650362173676" duration="1476000" />
       <workItem from="1650369572680" duration="1501000" />
       <workItem from="1650371185373" duration="3452000" />
-      <workItem from="1650393819616" duration="6683000" />
+      <workItem from="1650393819616" duration="10002000" />
+      <workItem from="1650540619325" duration="13539000" />
+      <workItem from="1650698268734" duration="1078000" />
+      <workItem from="1650699405794" duration="3082000" />
+      <workItem from="1650725001874" duration="132000" />
+      <workItem from="1650786425540" duration="4606000" />
     </task>
     <servers />
   </component>
